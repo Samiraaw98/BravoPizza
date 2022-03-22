@@ -1,0 +1,118 @@
+
+
+    #menu{
+        background-color:#0f0e0e;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        border: 5px solid black;
+        padding-top:10px ;
+       
+       
+        
+        
+
+        
+        h1{
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+            font-style: italic;
+            text-align: center;
+            margin-top: -15px;
+            
+            
+        }
+        .menun{
+            background-color:white;
+            border:  solid 5px #70241a;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            border-radius: 20px;
+            display: grid;
+            grid-template-rows: 1fr;
+
+        }
+        a{
+            text-decoration: none;
+            font-family: fantasy;
+            color: black;
+            
+        }
+    }
+    
+    #menusheet{
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-template-rows: auto;
+      
+       
+        span{
+            display: grid;
+            grid-template-columns: 1fr;
+             font-size: 1.5em;
+                color: white;
+        }
+       
+        }
+        #price{
+            float: right;
+            }
+            h1{
+                font-size: 2em;
+                background-color: black;
+                color: white;
+                border:#70241a 3px solid;
+                box-shadow: 3px 3px 10px rgb(104, 9, 9);
+            }
+            
+            p{
+                font-family: 'Times New Roman', Times, serif;
+                color: white;
+                
+            }
+            
+        
+        
+        #signature{
+            display: grid;
+            grid-template-rows: auto;
+            #price{
+                display: grid;
+                grid-template-rows: auto;
+            }
+            li{
+                font-size: .5em;
+            }
+        }
+
+
+
+
+        @media only screen and (max-width:600px){
+            #number{
+                width: 100%;
+                p{
+                    display: none;
+                }
+                #mobilesvg{
+                    display: contents;
+                }
+            }
+            .menun{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+
+           @media only screen and(min-width:700px){ 
+           }
+
+   @media only screen and ( min-width: 1200px){ 
+    
+   }
+
+
+

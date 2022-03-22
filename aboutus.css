@@ -1,0 +1,107 @@
+#title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  background-image: url("https://i.pinimg.com/736x/85/0f/a2/850fa21a46ac10029572017242e1b380.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw, 100px;
+  background-position: center;
+  color: white;
+  font-family: fantasy;
+  font-size: small;
+  font-weight: bolder;
+  height: 450px;
+  padding-top: 0;
+}
+
+#title h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.story h1 {
+  color: white;
+}
+
+.story p {
+  color: white;
+}
+
+.quotes {
+  background-color: black;
+  -webkit-box-shadow: 10px 10px 10px #867777;
+          box-shadow: 10px 10px 10px #867777;
+  overflow: scroll;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+  height: 350px;
+  width: 80%;
+}
+
+.quotes h2 {
+  color: white;
+  font: 2em fantasy;
+  margin-top: 0px;
+  font-family: cursive;
+  text-align: center;
+  background-color: #70241a;
+  width: 100%;
+}
+
+.quotes p {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .grid-container span {
+    display: none;
+  }
+  #welcome {
+    width: 90%;
+  }
+  #welcome h1 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .quotes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #number {
+    width: 100%;
+  }
+  #number p {
+    display: none;
+  }
+  #number #mobilesvg {
+    display: contents;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #number #mobilesvg {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #number #mobilesvg {
+    display: none;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */
